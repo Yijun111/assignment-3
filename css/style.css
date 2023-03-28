@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  body {
+    background: #393d24 no-repeat;
+    background-image: url(../images/bg.png), url(../images/bg.png),
+      url(../images/bg.png);
+    background-position: left top, center right, bottom left;
+    background-size: 300px 300px, 400px 400px, 300px 300px;
+    background-blend-mode: luminosity;
+    color: #fff;
+  }
+  .text-end{
+    text-align: right;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .w-50{
+    width: 50%;
+  }
+  header {
+    padding: 2vw 5vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    position: relative;
+    border: 1px solid #fff;
+    padding: .5em 2em;
+    border-radius: 50%;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  .nav:hover {
+    color: #000;
+    border-color: #000;
+  }
+  .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+    transform: translateY(100%);
+  }
+  .nav:hover .mask {
+    transform: translateY(0%);
+  }
+  .index-title{
+    width: 70%;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  .index-title h1{
+    font-size: 7em;
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .line{
+    width: 86%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #fff;
+  }
+  .mt-5{
+    margin-top: 5em;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .pt-5{
+    padding-top: 5em !important;
+  }
+
+  .pt-10{
+    padding-top: 10em !important;
+  }
+  .pt-20{
+    padding-top: 20em !important;
+  }
+  .main{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3em 0;
+    font-size: 1.17em;
+  }
+  .main .left{
+    width: 30%;
+  }
+  .main .body{
+    flex: 1;
+  }
+  .main .body p{
+    margin: 1em 0;
+  }
+
+
+  .work{
+    background: #393d24 no-repeat;
+    background-image: url(../images/bg.png), url(../images/bg.png),
+      url(../images/bg.png);
+    background-position:right center, center center, bottom left;
+    background-size: 300px 300px, 500px 500px, 300px 300px;
+    background-blend-mode: luminosity;
+  }
+  .work h2{
+    font-size: 3em;
+  }
+  .work .main{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+
+  }
+  .work .main .items{
+    flex: 1;
+    padding: 15px;
+  }
+  .work .main .items img{
+    width: 100%;
+  }
+  .work .main .item{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .work .main .item p{
+    margin: 1em 0;
+  }
+
+
+
+
+
+
